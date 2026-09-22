@@ -4,66 +4,68 @@ Uma aplicação moderna de catálogo de produtos com carrossel responsivo e carr
 
 🚀 Funcionalidades
 
-Carrossel Interativo de Produtos: Exibição fluida e responsiva de produtos com suporte para navegação por toque e botões laterais (alimentado por react-slick).
+Carrossel Interativo de Produtos: Exibição fluida e responsiva com suporte para navegação por clique e botões laterais (alimentado por react-slick).
 
-Carrinho de Compras Deslizante: Gaveta lateral animada (drawer) que permite visualizar itens selecionados em tempo real.
+Carrinho de Compras Lateral (Drawer): Gaveta lateral animada que desliza na tela exibindo os itens adicionados em tempo real.
 
 Gestão de Estado em React:
 
 Adição e remoção dinâmica de produtos.
 
-Indicador numérico animado no cabeçalho (badge com contagem).
+Indicador numérico animado no cabeçalho (badge com contagem de itens).
 
 Cálculo automático de subtotais e valor total da encomenda.
 
-Formatação Monetária: Exibição de valores no padrão brasileiro (R$ 0,00) através de utilitário dedicado (Intl.NumberFormat).
+Formatação de Moeda: Exibição dos valores formatados no padrão brasileiro (R$ 0,00).
 
-Modal de Checkout: Ecrã de confirmação e resumo da compra com opções de revisão e conclusão do pedido.
+Modal de Checkout: Janela de confirmação com o resumo dos itens antes de finalizar a compra.
 
-Design Totalmente Responsivo: Layout adaptável para ecrãs móveis, tablets e monitores desktop com Tailwind CSS.
+Design Responsivo: Adaptado para telemóveis, tablets e monitores desktop com Tailwind CSS.
 
 🛠️ Tecnologias Utilizadas
 
-React: Biblioteca JavaScript para construção de interfaces reativas.
+React: Biblioteca JavaScript para construção da interface.
 
-Vite: Ferramenta de build rápida e moderna para o ecossistema frontend.
+Vite: Ferramenta de build rápida para o ambiente de desenvolvimento.
 
-Tailwind CSS: Framework utilitário de CSS para estilização rápida e responsiva.
+Tailwind CSS: Framework utilitário para estilização e responsividade.
 
-React Slick: Componente de slider/carrossel baseado no Slick Carousel.
+React Slick / Slick Carousel: Biblioteca para construção do carrossel/slider.
 
-React Icons: Pacote abrangente de ícones populares para React.
+React Icons: Conjunto de ícones para botões e ações.
 
 📂 Estrutura do Projeto
 
 SmartHub/
-├── public/                # Imagens e ficheiros estáticos locais
+├── public/
 │   ├── foto1.jpg
 │   ├── foto2.png
-│   └── ...
+│   ├── foto3.jpg
+│   ├── foto4.jpg
+│   └── foto5.jpg
 ├── src/
-│   ├── components/        # Componentes reutilizáveis
+│   ├── components/
 │   │   ├── Cart.jsx
 │   │   └── CheckoutModal.jsx
-│   ├── utils/             # Funções utilitárias
+│   ├── utils/
 │   │   └── formatCurrency.js
-│   ├── App.jsx            # Componente raiz da aplicação
-│   ├── index.css          # Diretivas do Tailwind e estilos globais
-│   └── main.jsx           # Ponto de entrada do React
-├── package.json           # Dependências e scripts do projeto
-├── tailwind.config.js     # Configuração do Tailwind CSS
-└── vite.config.js         # Configuração do Vite
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
 
 
 💻 Como Executar Localmente
 
 Pré-requisitos
 
-Node.js instalado na máquina (versão 18 ou superior recomendada).
+Node.js instalado (versão 18 ou superior).
 
 Git instalado.
 
-Passo a passo
+Passo a Passo
 
 Clonar o repositório:
 
